@@ -1,0 +1,31 @@
+.table-container {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 1em;
+}
+
+.objetivo-result-container {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.objetivo-result-container div {
+	border: 2px;
+}
+
+.result-container {
+	width: 80vw;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.matriz-restricciones-container {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.result-container td {
+	width: 3em;
+	height: 3em;
+}

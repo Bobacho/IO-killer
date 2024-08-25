@@ -1,0 +1,39 @@
+.row-container {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 20px;
+}
+
+.variable-container {
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	padding: 10px;
+}
+
+.variable-container input {
+	width: 4em;
+	border: none;
+	background-color: transparent;
+	text-align: end;
+}
+
+.restriccion-container {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 10px;
+}
+
+.restriccion-container p {
+	margin-left: 5px;
+}
+
+.nro-variables {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 2px;
+}
+
+.objetivo-container {
+	display: flex;
+	flex-flow: column nowrap;
+}
